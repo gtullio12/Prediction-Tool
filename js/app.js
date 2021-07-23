@@ -1,4 +1,5 @@
 $(function () {
+    
     const stockAPIKey = '4KC80LZJJDQIVU5Is'
     const interval = {
         twenty_four_hour: '24-HOUR',
