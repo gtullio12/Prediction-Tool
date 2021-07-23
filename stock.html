@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
     <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     <!-- Bootstrap -->
     <link href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <nav class="navbar navbar-default" id='mainNavbar'>
+
+    <nav class="navbar navbar-default" id='mainNavbar' style='background-color: #00aeef;'>
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -40,43 +41,45 @@
         <!--/.container-fluid -->
     </nav>
 
-    <select id='symbol'>
-        <option value=”BTC”>Bitcoin</option>
-        <option value=”ETH”>Ethereum</option>
-        <option value=”BNB”>Binance Coin</option>
-        <option value=”ADA”>Cardano</option>
-        <option value=”XRP”>XRP</option>
-        <option value=”DOGE”>Dogecoin</option>
-        <option value=”DOT”>Polkadot</option>
-        <option value=”UNI”>Uniswap</option>
-        <option value=”BCH”>Bitcoin Cash</option>
-        <option value=”LTC”>Litecoin</option>
-        <option value=”SOL”>Solana</option>
-        <option value=”LINK”>Chainlink</option>
-        <option value=”WBTC”>Wrapped Bitcoin</option>
-        <option value=”XLM”>Stellar</option>
-        <option value=”MATIC”>Polygon</option>
-        <option value=”ETC”>Ethereum Classic</option>
-        <option value=”THETA”>THETA</option>
-        <option value=”ICP”>Internet Computer</option>
-        <option value=”VET”>VeChain</option>
-        <option value=”FIL”>Filecoin</option>
-        <option value=”TRX”>TRON</option>
-        <option value=”AAVE”>Aave</option>
-        <option value=”XMR”>Monero</option>
-        <option value=”EOS”>EOS</option>
-        <option value=”ALGO”>Algorand</option>
+    <select id='stockSymbol'>
+        <option value=”PNC”>PNC Financial Services Group</option>
+        <option value=”LSXMK”>The Liberty SiriusXM Group</option>
+        <option value=”AMZN”>Amazon.com, Inc</option>
+        <option value=”MA”>Mastercard Incorporated</option>
+        <option value=”GME”>GameStop Corp</option>
+        <option value=”GM”>General Motors</option>
+        <option value=”V”>Visa Inc</option>
+        <option value=”VRSN”>Verisign, Inc</option>
+        <option value=”CHTR”>Charter Communications, Inc</option>
+        <option value=”BK”>The Bank of New York Mellon</option>
+        <option value=”DVA”>DaVita Inc</option>
+        <option value=”USB”>U.S. Bancorp</option>
+        <option value=”JPM”>JP Morgan Chase</option>
+        <option value=”MCO”>Moody's Corporation</option>
+        <option value=”KHC”>The Kraft Heinz Company</option>
+        <option value=”WFC”>Wells Fargo & Company</option>
+        <option value=”AXP”>American Express Company</option>
+        <option value=”KO”>The Coca-Cola Company</option>
+        <option value=”BAC”>Bank of America Corporation</option>
+        <option value=”AAPL”>Apple Inc.</option>
+        <option value=”UBER”>Uber Technologies</option>
+        <option value=”NFLX”>Netflix, Inc</option>
+        <option value=”ADBE”>Adobe Inc.</option>
+        <option value=”CRM”>Salesforce.com Inc</option>
+        <option value=”BRK-B”>Berkshire Hathaway Inc.</option>
     </select>
 
-    <select id='interval'>
+    <select id='stockInterval'>
         <option value=”24-HOUR”>Next 24 Hours</option>
         <option value=”1-MONTH”>Next Month</option>
         <option value=”6-MONTH”>Next Six Months</option>
     </select>
 
-    <button id='predictPrice'>Predict Price!</button>
+    <button id='predictStockPrice'>Predict Price!</button>
 
-    <h1 id='showPredictedPrice'></h1>
+    <h1 id='showPredictedStockPrice'></h1>
+
+
 
 </body>
 

@@ -1,17 +1,15 @@
-html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-
-body {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 select {
     font: inherit;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+#mainNavbar{
+    background-color: #00aeef;
+}
+
+.active {
+    background-color: #00aeef;
 }
